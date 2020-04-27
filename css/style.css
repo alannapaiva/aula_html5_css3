@@ -1,0 +1,39 @@
+body{
+    background-color: white;
+    margin-left: 500px;
+    margin-right: 400px;
+}
+
+header{
+    margin-top: 70px;
+}
+
+h1{
+    color: plum;
+    font-family: Verdana;
+}
+
+h2{
+    font-family: monospace;
+}
+
+p{
+    font-size: 18px;
+}
+
+nav{
+    font-family: monospace;
+}
+
+.img_padrao {
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+.logo{
+    width: 40px;
+}
+
+footer{
+    margin-bottom: 30px;
+}

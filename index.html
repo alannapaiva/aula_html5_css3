@@ -3,17 +3,18 @@
     <head>
         <meta charset="utf-8">
         <title>Minha página</title>
+        <link rel = "stylesheet" type = "text/css" href="css/style.css">
     </head>
 
     <body>
         <nav>
-            <p>Minha Página</p>
+            <p>Menu de opções</p>
             <ul>
                 <li><a href = "#servicos">SERVIÇOS</a></li>
                 <li><a href = "#clientes">CLIENTES</a></li>
                 <li><a href = "#parceiros">PARCEIROS</a> </li>
                 <li><a href = "#time">TIME</a></li>
-                <li>CONTATO</li>
+                <li><a href = "#contato">CONTATO</a></li>
             </ul>
         </nav>
         <p>Minha primeira página</p>
@@ -30,11 +31,11 @@
                 Oferecemos os melhores serviçoes em
                 desenvolvimento de sites e aplicativos
             </p>
-                <div>
-                    <img src="img/site.jpg" width="300px">
+                <div>  
+                    <img src="img/site.jpg"  class = "img_padrao">
                 </div>
                 <div>
-                    <img src="img/app.jpg" width ="300px">
+                    <img src="img/app.jpg"  class = "img_padrao">
                 </div>
         </section> 
 
@@ -42,10 +43,10 @@
             <h2>CLIENTES</h2>
             <p>Nossos clientes ficaram muito satisfeitos com nossos serviçoes</p>
             <div>
-                <img src="img/cliente.jpg" width = "300px">
+                <img src="img/cliente.jpg"  class = "img_padrao">
             </div>
             <div>
-                <img src="img/cliente3.jpg" width = "300px">
+                <img src="img/cliente3.jpg" class = "img_padrao">
             </div>
 
         </section>
@@ -57,10 +58,14 @@
                soluções para nossos clientes
             </p>
             <div>
-                <img src ="img/academia.png" width = "130px">
+               <a href ="https://www.academiapme.com.br/" target = "_blank">
+                    <img src ="img/academia.png" width = "100px" class = "img_padrao">
+                </a>
             </div>
             <div>
-                <img src = "img/digital_innovation.png" width = "130px">
+                <a href = "https://digitalinnovation.one/sign-in" target = "_blank">
+                    <img src = "img/digital_innovation.png" width = "130px" class = "img_padrao">
+                </a>
             </div>
         </section>
 
@@ -71,16 +76,31 @@
                 empenho para entregar o melhor produto para nossos clientes 
             </p>
             <div>
-                <img src = "img/time.jpg" width = "300px">
+                <img src = "img/time.jpg" class = "img_padrao">
             </div>
             <div>
-                <img src = "img/time2.jpg" width = "300px">
+                <img src = "img/time2.jpg"  class = "img_padrao">
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>CONTATO</h2>
+            <p>
+                Entre em com contato com nossa equipe
+            </p>
+            <div>
+                <img src="img/email.png"  class = "logo">
+                <p><a href = "mailto:contato@empresa.com">contato@empresa.com</a></p>
+            </div>
+            <div>
+                <img src ="img/fone.png"  class ="logo">
+                <p><a href="tel:99999999"> (99)99999999</a> </p>
             </div>
         </section>
 
         <footer>
-             <p>Desenvolvido por Alanna Paiva</p>
-        </footer>
+            <p>Desenvolvido por Alanna Paiva</p>
+       </footer>
 
     </body>
 
